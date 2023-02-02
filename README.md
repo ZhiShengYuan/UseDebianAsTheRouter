@@ -254,7 +254,8 @@ please follow the guide of `pppoeconf`,it will guide you to configure the pppoe 
             },
             {
                 "ip": [
-                    "geoip:private"
+                    "geoip:private",
+                    "geoip:cn"
                 ],
                 "outboundTag": "direct",
                 "type": "field"
